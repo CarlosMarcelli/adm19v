@@ -70,6 +70,10 @@ Códigos del grupo DDWG19 Vespertino del Diplomado en Diseño Web de Centro ADM.
 
 ## Recursos
 
+- Ejemplos sitios _**one page**_:
+  - [Grupo UR](https://grupour.com/)
+  - [Reiki](https://reiki.soy/)
+- [Ejercicio CodePen 1](https://codepen.io/jonmircha/pen/NWxGXVd)
 - [Guía de Flexbox CSS](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [Guía de Grid CSS](https://css-tricks.com/snippets/css/complete-guide-grid/)
 - [Diseño Atómico](https://bradfrost.com/blog/post/atomic-web-design/)
