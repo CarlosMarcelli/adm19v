@@ -79,11 +79,14 @@ Códigos del grupo DDWG19 Vespertino del Diplomado en Diseño Web de Centro ADM.
 - [Diseño Atómico](https://bradfrost.com/blog/post/atomic-web-design/)
 - [Patrones de Diseño Atómico](https://demo.patternlab.io/?p=pages-homepage)
 - [Fluid Responsive Design](https://utopia.fyi/)
-- [Ejemplo de Portafolio Web de una sóla página](https://www.traversymedia.com/)
 - [Teoría Flexbox](https://jonmircha.com/flexbox)
 - [CSS Reference](https://cssreference.io/)
 - [Why wireframes are becoming obsolete](https://www.antonsten.com/wireframes/)
+- [Configuración VS Code](https://jonmircha.com/vscode/)
+- [Emmet.io](https://docs.emmet.io/)
+- [¿Por qué aplicar box-sizing?](https://www.paulirish.com/2012/box-sizing-border-box-ftw/)
 
 ## Actividades
 
 - Para la sesión 2, enviar por correo un _sketch_ de su portafolio web, versión (_Mobile_ y _Desktop_).
+- A tu propuesta (_sketch_) aplica el patrón de _Column Layout_.
