@@ -58,15 +58,15 @@ Códigos del grupo DDWG19 Vespertino del Diplomado en Diseño Web de Centro ADM.
   - _Grid CSS_.
 - Patrones de _UI_.
   - _Column Layout_.
+  - Navegaciones.
+  - _Branding_ con _CSS_.
+  - Espaciado y Textos Fluidos.
   - _Split Layout_.
   - _Hero Image_.
   - _Headers_ y _Footers_.
     - _Fixed_.
     - _Sticky_.
-  - Espaciado y Textos Fluidos.
   - _Cards_.
-  - Navegaciones.
-  - _Branding_ con _CSS_.
 
 ## Recursos
 
