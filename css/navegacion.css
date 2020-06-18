@@ -50,7 +50,6 @@ img {
 .header {
   position: sticky;
   top: 0;
-  padding: 1rem;
   width: 100%;
   height: var(--header-height);
   background-color: var(--main-color);
@@ -66,9 +65,16 @@ img {
 .logo {
   display: block;
   width: 100%;
-  /* text-align: left;
+  text-align: left;
+  text-align: right;
   text-align: center;
-  text-align: right */
+}
+
+.logo img {
+  border-radius: 50%;
+  padding: 0.25rem;
+  width: auto;
+  height: var(--header-height);
 }
 
 .panel {
@@ -83,20 +89,25 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: var(--second-modal-color);
-  transition: 0.5s transform ease;
-  /* De arriba */
-  transform: translate(0, -100%);
+  background-color: var(--main-modal-color);
+  /* transition: 0.5s all ease; */
+  transition: 0.8s transform ease, 0.7s opacity ease-in-out;
+  /* opacity: 0;
+  visibility: hidden; */
   /* De abajo */
   transform: translate(0, 100%);
   /* De la derecha */
   transform: translate(100%, 0);
   /* De la izquierda */
   transform: translate(-100%, 0);
+  /* De arriba */
+  transform: translate(0, -100%);
 }
 
 .panel.is-active {
   transform: translate(0, 0);
+  /* opacity: 1;
+  visibility: visible; */
 }
 
 .panel-btn {
@@ -112,4 +123,77 @@ img {
   justify-content: center;
   align-items: center;
   background-color: var(--main-color);
+}
+
+.menu {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-container {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu a {
+  padding: 2rem;
+  width: inherit;
+  display: block;
+  font-size: 1.5rem;
+  text-decoration: none;
+  text-align: center;
+  color: var(--second-color);
+  transition: all 0.3s ease-out;
+}
+
+.menu a:hover {
+  font-weight: bold;
+  color: var(--main-color);
+  background-color: var(--second-color);
+}
+
+@media screen and (min-width: 1024px) {
+  .header-container {
+    display: flex;
+  }
+
+  .logo {
+    text-align: left;
+  }
+
+  .panel-btn {
+    display: none;
+  }
+
+  .panel {
+    position: static;
+    transform: translate(0, 0);
+    opacity: 1;
+    visibility: visible;
+    background-color: transparent;
+  }
+
+  .menu {
+    min-height: var(--header-height);
+  }
+
+  .menu-container {
+    flex-direction: row;
+  }
+
+  .menu a {
+    padding: 0;
+    font-size: 1.25rem;
+  }
+
+  .menu a:hover {
+    font-weight: normal;
+    color: var(--second-color);
+    opacity: 0.85;
+    background-color: transparent;
+  }
 }

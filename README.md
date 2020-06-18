@@ -90,3 +90,4 @@ Códigos del grupo DDWG19 Vespertino del Diplomado en Diseño Web de Centro ADM.
 
 - Para la sesión 2, enviar por correo un _sketch_ de su portafolio web, versión (_Mobile_ y _Desktop_).
 - A tu propuesta (_sketch_) aplica el patrón de _Column Layout_.
+- Lleva tu _sketch_ a código usando los patrones vistos en clase.
