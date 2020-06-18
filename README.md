@@ -85,6 +85,8 @@ Códigos del grupo DDWG19 Vespertino del Diplomado en Diseño Web de Centro ADM.
 - [Configuración VS Code](https://jonmircha.com/vscode/)
 - [Emmet.io](https://docs.emmet.io/)
 - [¿Por qué aplicar box-sizing?](https://www.paulirish.com/2012/box-sizing-border-box-ftw/)
+- [Curso JavaScript](https://www.youtube.com/playlist?list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA)
+- [Curso Flexbox](https://www.youtube.com/playlist?list=PLvq-jIkSeTUbQc3dGsssp8lxAi5npMrys)
 
 ## Actividades
 
