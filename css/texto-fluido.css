@@ -101,7 +101,7 @@ html {
 }
 
 body {
-  font: 400 var(--fluid-0) / 1.6 sans-serif;
+  font: 400 var(--fluid-0) / 1.6 "Raleway", sans-serif;
   text-rendering: optimizeSpeed;
 }
 
@@ -133,4 +133,8 @@ h5,
 h6,
 .fluid-0 {
   font-size: var(--fluid-0);
+}
+
+.permanent-marker {
+  font-family: "Permanent Marker", cursive;
 }

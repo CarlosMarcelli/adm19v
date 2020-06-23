@@ -1,0 +1,54 @@
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.hero-image {
+  width: 100%;
+  min-height: 100vh;
+  background-image: var(--image);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.hero-image-opacity {
+  width: inherit;
+  min-height: inherit;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image-content {
+  text-align: center;
+  color: #fff;
+  font-size: 300%;
+}
+
+.f-200 {
+  font-size: 200%;
+}
+
+.p1 {
+  padding: 1rem;
+}
+
+.bg-light-blue {
+  background-color: lightblue;
+}
+
+.bg-steel-blue {
+  background-color: steelblue;
+}
