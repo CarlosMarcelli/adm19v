@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+  /* Sólo cuando esta activa la clase fixed-top */
+  /* padding-top: 8rem; */
+}
+
+.footer {
+  text-align: center;
+  background-color: var(--main-color);
+}
+
+.sticky-top {
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
+
+.max-width-1200 {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* Mobile First (Empezar por el móvil)*/
+/* 1 columna - 100% / 1col = 100%*/
+.flex-item {
+  border: thin solid #000;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  .flex-item {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .flex-item {
+    width: 33.33333333333333%;
+  }
+}
