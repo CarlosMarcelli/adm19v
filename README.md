@@ -72,10 +72,14 @@ Códigos del grupo DDWG19 Vespertino del Diplomado en Diseño Web de Centro ADM.
 
 ## Recursos
 
+- [960 Grid System](https://960.gs/)
 - [Bootstrap](https://getbootstrap.com/)
-- [Bootstrap Material Design](https://mdbootstrap.com/)
-- [Bootswatch](https://bootswatch.com/)
-- [Avant UI](https://www.avantui.com/)
+- [Foundation](https://get.foundation/index.html)
+- [Materialize](https://materializecss.com/)
+- [Pure CSS](https://purecss.io/)
+- [Bulma](https://bulma.io/)
+- [Semantic UI](https://semantic-ui.com/)
+- [TailWind](https://tailwindcss.com/)
 
 ## Actividades
 
