@@ -52,3 +52,9 @@ body {
 .bg-steel-blue {
   background-color: steelblue;
 }
+
+@media screen and (min-width: 1024px) {
+  .hero-image {
+    background-image: var(--image-desktop);
+  }
+}
