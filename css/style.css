@@ -1,6 +1,9 @@
 /* ********** Custom Properties ********** */
 
 /* ********** Reset Styles ********** */
+body {
+  font-family: "Raleway", sans-serif;
+}
 
 /* ********** Bootstrap Styles ********** */
 

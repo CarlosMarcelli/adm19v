@@ -80,6 +80,7 @@ Códigos del grupo DDWG19 Vespertino del Diplomado en Diseño Web de Centro ADM.
 - [Bulma](https://bulma.io/)
 - [Semantic UI](https://semantic-ui.com/)
 - [TailWind](https://tailwindcss.com/)
+- [FontAwesome](https://fontawesome.com/)
 
 ## Actividades
 
