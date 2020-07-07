@@ -1,11 +1,73 @@
 /* ********** Custom Properties ********** */
+:root {
+  --first-color: rgb(217, 0, 98);
+  --first-alpha-color: rgba(217, 0, 98, 0.75);
+  --second-color: rgb(20, 25, 45);
+  --second-alpha-color: rgba(20, 25, 45, 0.75);
+  --third-color: rgb(80, 20, 100);
+  --third-alpha-color: rgba(80, 20, 100, 0.75);
+
+  --link-color: rgb(80, 158, 227);
+
+  --bg-color: rgb(245, 245, 245);
+  --bg-alpha-color: rgba(245, 245, 245, 0.75);
+
+  --navbar-height: 48px;
+}
 
 /* ********** Reset Styles ********** */
 body {
   font-family: "Raleway", sans-serif;
 }
 
+a {
+  color: var(--link-color);
+  transition: all 0.3s ease-out;
+}
+
+a:hover {
+  color: var(--first-color);
+}
+
 /* ********** Bootstrap Styles ********** */
+.bg-dark {
+  background-color: var(--second-color) !important;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28217, 0, 98, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-dark .navbar-toggler {
+  color: var(--first-alpha-color);
+  border-color: var(--first-color);
+}
+
+.navbar-brand img {
+  width: auto;
+  height: var(--navbar-height);
+}
+
+.nav-link {
+  color: var(--first-color) !important;
+  font-size: 1.15rem;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  padding-left: 1rem;
+  color: var(--white) !important;
+  background-color: var(--first-alpha-color);
+}
+
+.dropdown-item {
+  color: var(--first-alpha-color);
+  font-weight: bold;
+}
+
+.dropdown-item:hover {
+  color: var(--third-alpha-color);
+}
 
 /* ********** My Styles ********** */
 
@@ -21,6 +83,10 @@ body {
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  .nav-link:hover {
+    padding-left: 0;
+    background-color: transparent;
+  }
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
