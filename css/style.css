@@ -107,6 +107,26 @@ a:hover {
   background-color: var(--third-color);
 }
 
+.single-page {
+  background-image: url(../img/site-singlepage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.multi-page {
+  background-image: url(../img/site-multipage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-color {
+  background-color: var(--bg-color);
+}
+
+.bg-alpha-color {
+  background-color: var(--bg-alpha-color);
+}
+
 /* ********** Bootstrap Media Queries ********** */
 
 /* // Small devices (landscape phones, 576px and up) */
