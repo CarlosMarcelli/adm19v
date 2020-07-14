@@ -34,6 +34,10 @@ a:hover {
   color: var(--first-color);
 }
 
+sup {
+  color: var(--first-color);
+}
+
 /* ********** Bootstrap Styles ********** */
 .bg-dark {
   background-color: var(--second-color) !important;
