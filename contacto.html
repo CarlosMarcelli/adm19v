@@ -14,9 +14,9 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" href="img/favicon.png">
 
-  <title>Studio BAD DOG</title>
+  <title>¿Interesado? | Studio BAD DOG</title>
   <meta name="description"
-    content="¿Necesitas un nuevo sitio web? Elaboro experiencias en línea, hermosas y atractivas. Soy Fulano De Tal, Diseñador Web.">
+    content="Envíame tus comentarios. Para más información, puedes contactarme en info@studiobaddog.com">
 </head>
 
 <body class="d-flex flex-column min-vh-100">
@@ -54,8 +54,98 @@
       </div>
     </section>
   </nav>
-  <main class="flex-grow-1 py-5">
-    <h1>Contenido de Contacto</h1>
+  <main class="flex-grow-1 pt-5">
+    <section class="container mb-5">
+      <article class="text-center">
+        <h1 class="mb-5">¿Interesado?</h1>
+        <p class="lead">
+          ¡Envíame tus comentarios!
+        </p>
+        <p class="lead">
+          Para más información, puedes contactarme en <a href="mailto:info@studiobaddog.com">info@studiobaddog.com</a>.
+        </p>
+      </article>
+      <article class="row">
+        <aside class="col-12 col-lg-6 order-lg-1">
+          <!--
+            Expresiones Regulares - https://www.youtube.com/watch?v=aPkBloR9MEI&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=32
+            Formularios HTML5 - https://www.youtube.com/watch?v=dyaH-gdiD34&list=PLvq-jIkSeTUZ6QgYYO3MwG9EMqC-KoLXA&index=102
+            https://formsubmit.co/
+           -->
+          <form action="https://formsubmit.co/your@email.com" method="POST">
+            <div class="form-group">
+              <input type="text" class="form-control form-control-lg" name="nombre" placeholder="Escribe tu nombre"
+                title="Este campo sólo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚú\s]+$" required>
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control form-control-lg" name="email" placeholder="Escribe tu email"
+                title="Formato de Email Inválido"
+                pattern="^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$" required>
+            </div>
+            <div class="form-group">
+              <textarea name="comentarios" class="form-control form-control-lg" row="5" required
+                placeholder="Escribe tus comentarios"></textarea>
+            </div>
+            <div class="form-group">
+              <input type="hidden" name="_next" value="http://127.0.0.1:5500/gracias.html">
+              <input type="submit" class="btn btn-lg bg-success text-white" value="Enviar">
+            </div>
+          </form>
+        </aside>
+        <aside class="col-12 col-lg-6">
+          <!-- <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" width="560" height="315"
+              src="https://www.youtube.com/embed/dyaH-gdiD34" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div> -->
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d940.6654003373211!2d-99.16814652076648!3d19.427021863930683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff35f5bd1563%3A0x6c366f0e2de02ff7!2sEl%20%C3%81ngel%20de%20la%20Independencia!5e0!3m2!1ses-419!2smx!4v1594860040189!5m2!1ses-419!2smx"
+              width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+              tabindex="0"></iframe>
+          </div>
+        </aside>
+      </article>
+    </section>
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-caption bg-alpha-dark">
+          <p class="h2"><b>Fulano de Tal</b>,</p>
+          <p class="h5">Diseñador Web.</p>
+          <aside class="d-none d-md-block mt-md-5">
+            <p>Comencé a crear sitios y aplicaciones web en <b>2004</b>.</p>
+            <p>Valoro mucho el concepto de <em>"<b>menos es más</b>"</em>.</p>
+            <p>Trabajo de forma remota e independiente.</p>
+          </aside>
+        </div>
+        <div class="carousel-item active">
+          <img src="img/about-1.jpg" class="d-block w-100" alt="Acerca 1">
+        </div>
+        <div class="carousel-item">
+          <img src="img/about-2.jpg" class="d-block w-100" alt="Acerca 2">
+        </div>
+        <div class="carousel-item">
+          <img src="img/about-3.jpg" class="d-block w-100" alt="Acerca 3">
+        </div>
+        <div class="carousel-item">
+          <img src="img/about-4.jpg" class="d-block w-100" alt="Acerca 4">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
   </main>
   <footer class="p-3 bg-dark text-white text-center">
     <div class="container">

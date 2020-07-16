@@ -81,6 +81,12 @@ Códigos del grupo DDWG19 Vespertino del Diplomado en Diseño Web de Centro ADM.
 - [Semantic UI](https://semantic-ui.com/)
 - [TailWind](https://tailwindcss.com/)
 - [FontAwesome](https://fontawesome.com/)
+- [Emmet.io](https://emmet.io/)
+- [FormSubmit](https://formsubmit.co/)
+- [Tiny Letter](https://tinyletter.com/)
+- [Drift](https://www.drift.com/)
+- [AddThis](https://www.addthis.com/)
+- [Disqus](https://disqus.com/)
 
 ## Actividades
 
